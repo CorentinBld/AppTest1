@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTest1.SecondePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="AntiqueWhite">
+            <Frame BackgroundColor="Gray" Margin="5" BorderColor="Black">
+                <Label Text="Control LED !" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+            </Frame>
+            <!-- selection de la couleur des led lors de leurs alumage  -->
+            <Button Text="Red LED"
+                    Margin="5"
+                    BackgroundColor="Red"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="StartAndExpand"
+                    TranslationY="5"/>
+
+            <Button Text="Green LED"
+                    Margin="5" 
+                    BackgroundColor="Green"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="Center"
+                    TranslationY="-60"/>
+
+            <Button Text="Bleu LED"
+                    Margin="5"
+                    BackgroundColor="Blue"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="EndAndExpand"
+                    TextColor="White"
+                    TranslationY="-125"/>
+
+            <Button Text="Cyan LED"
+                    BackgroundColor="Cyan"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="StartAndExpand"
+                    Margin="5"
+                    TranslationY="-100"/>
+
+            <Button Text="Yellow LED"
+                    Margin="5"
+                    BackgroundColor="Yellow"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="Center"
+                    TranslationY="-160"/>    
+
+            <Button Text="Purple LED"
+                    BackgroundColor="Purple"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="EndAndExpand"
+                    TextColor="White"
+                    Margin="5"
+                    TranslationY="-230"/>   
+
+            <Button Text="White Color LED "
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="StartAndExpand"
+                    TranslationY="-200"
+                    Margin="5"/>
+
+            <Button Text="Blink"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    HorizontalOptions="EndAndExpand"
+                    Margin="5"
+                    TranslationY="-265"/>
+            <!-- boutton pour lancé le programme de pilotage des leds -->
+            <Button Text="Marche" Margin="5" BorderColor="Black" BorderWidth="2" BorderRadius="10" HorizontalOptions="EndAndExpand" BackgroundColor="Green"
+                    TranslationY="-55"/>
+        
+            <!-- boutton pour arréter le programme de pilotage des leds -->
+            <Button Text="Arret" Margin="5" BorderColor="Black" BorderWidth="2" BorderRadius="10" HorizontalOptions="StartAndExpand" BackgroundColor="Red"
+                  TranslationY="-120"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
