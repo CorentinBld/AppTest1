@@ -19,7 +19,7 @@ namespace AppTest1
 
         private void Button_Clicked_Select_RED_Color(object sender, EventArgs e)
         {
-
+            
         }
 
         private void GreenColorSelectButton_Clicked(object sender, EventArgs e)
